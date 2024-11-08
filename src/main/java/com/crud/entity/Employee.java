@@ -32,15 +32,6 @@ public class Employee {
     @Column(name = "employee_skills")
     private String employeeSkills;
 
-    public Employee(Integer employeeId, String employeeName, String employeeContactNumber, String employeeAddress, String employeeSkills, String employeeDepartment, String employeeGender) {
-        this.employeeId = employeeId;
-        this.employeeName = employeeName;
-        this.employeeContactNumber = employeeContactNumber;
-        this.employeeAddress = employeeAddress;
-        this.employeeSkills = employeeSkills;
-        this.employeeDepartment = employeeDepartment;
-        this.employeeGender = employeeGender;
-    }
 
 }
 
