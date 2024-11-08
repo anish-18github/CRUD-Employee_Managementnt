@@ -14,18 +14,18 @@ public class EmployeeController {
     private EmployeeService employeeService;
 
     @PostMapping("/add/employee")
-    public Employee saveEmployee(@RequestBody Employee employee){
+    public Employee saveEmployee(@RequestBody Employee employee) {
         return employeeService.saveEmployee((employee));
 
     }
 
     @GetMapping("/get/employee")
-    public List<Employee> getEmployee(){
+    public List<Employee> getEmployee() {
         return employeeService.getEmployee();
     }
 
     @GetMapping("/get/employee/{employeeId}")
-    public Employee getEmployeeById(@PathVariable Integer employeeId){
+    public Employee getEmployeeById(@PathVariable Integer employeeId) {
         return employeeService.getEmployeeById(employeeId);
 
     }

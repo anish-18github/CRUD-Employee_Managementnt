@@ -14,18 +14,18 @@ public class EmployeeService {
     @Autowired
     private EmployeeDao employeeDao;
 
-    public Employee saveEmployee(Employee employee){
+    public Employee saveEmployee(Employee employee) {
         return employeeDao.save(employee);
     }
 
-    public List<Employee> getEmployee(){
+    public List<Employee> getEmployee() {
         List<Employee> employees = new ArrayList<>();
         employeeDao.findAll().forEach(employees::add);
         return employees;
 
     }
 
-    public Employee getEmployeeById(Integer employeeId){
+    public Employee getEmployeeById(Integer employeeId) {
         return employeeDao.findById(employeeId).orElseThrow();
     }
 }
