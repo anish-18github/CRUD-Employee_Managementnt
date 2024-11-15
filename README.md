@@ -24,5 +24,4 @@ Before running the application, ensure you have the following installed:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/<your-username>/crud-employee_management.git
-   cd crud-employee_management
+   git clone https://github.com/anish-18github/CRUD-Employee_Managementnt.git
