@@ -73,7 +73,7 @@ The application runs locally on http://localhost:8080.
 
 |        Method   | Endpoint     | Description                |
 | :-------------- | :------- | :------------------------- |
-| `GET` | `	/get/employee/{id}` |Fetch a single employee by ID |
+| `GET` | `/get/employee/{id}` |Fetch a single employee by ID |
 
 #### Add emlpoyee
 
@@ -83,7 +83,7 @@ The application runs locally on http://localhost:8080.
 
 |        Method   | Endpoint     | Description                |
 | :-------------- | :------- | :------------------------- |
-| `POST` | `	/add/employee` |Create a new employee |
+| `POST` | `/add/employee` |Create a new employee |
 
 #### Update Employee By Id
 
@@ -93,7 +93,7 @@ The application runs locally on http://localhost:8080.
 
 |        Method   | Endpoint     | Description                |
 | :-------------- | :------- | :------------------------- |
-| `PUT` | `	update/employee/{id}` |Update an existing employee |
+| `PUT` | `/update/employee/{id}` |Update an existing employee |
 
 #### Delete Employee By Id
 
@@ -103,7 +103,7 @@ The application runs locally on http://localhost:8080.
 
 |        Method   | Endpoint     | Description                |
 | :-------------- | :------- | :------------------------- |
-| `GET` | `	/employee/{id}` |Delete an employee by ID |
+| `GET` | `/delete/employee/{id}` |Delete an employee by ID |
 
 
 
