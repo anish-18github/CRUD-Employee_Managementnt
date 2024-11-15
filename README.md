@@ -58,7 +58,7 @@ The application runs locally on http://localhost:8080.
 #### Get all Employees
 
 ```http
-  GET http://localhost:8080/api/items
+  GET /api/items
 ```
 
 |        Method   | Endpoint     | Description                |
